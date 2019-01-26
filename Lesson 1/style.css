@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Anaheim');
+
+h1{
+	font-family: 'Anaheim', sans-serif;
+	text-align:center;
+}
+#box1{
+	border:20px solid midnightblue;
+	width:500px;
+	height:250px;
+	background-color:blue;
+	border-radius:60px;
+	display:flex;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+}
+#box2{
+	border:20px solid midnightblue;
+	width:500px;
+	height:250px;
+	background-color:blue;
+	border-radius:60px;
+	display:flex;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+}
+#box3{
+	border:20px solid midnightblue;
+	width:500px;
+	height:250px;
+	background-color:blue;
+	border-radius:60px;
+	display:flex;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+}
+#itunes{
+	width: 50%;
+	height: 80%;
+}
+#caption1{
+	color:white;
+	font-family: 'Anaheim', sans-serif;
+	font-size:30px;
+}
+#caption2{
+	color:white;
+	font-family: 'Anaheim', sans-serif;
+	font-size:30px;
+}
+#caption3{
+	color:white;
+	font-family: 'Anaheim', sans-serif;
+	font-size:30px;
+}
