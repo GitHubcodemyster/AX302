@@ -41,10 +41,10 @@ function create(){
 	scorelabel.setShadow(3,3, 'rgba(0,0,0,0.5)', 2);
 	scoretext.setShadow(3,3, 'rgba(0,0,0,0.5)', 2);
 
-	liveslabel = game.add.text(10,5, "Lives: ", style);
-	livestext = game.add.text(120, 5, life, style);
-	liveslabel.setShadow(3,3, 'rgba(0,0,0,0.5)', 2);
-	livestext.setShadow(3,3, 'rgba(0,0,0,0.5)', 2);
+	lifelabel = game.add.text(10,5, "Lives: ", style);
+	lifetext = game.add.text(120, 5, life, style);
+	lifelabel.setShadow(3,3, 'rgba(0,0,0,0.5)', 2);
+	lifetext.setShadow(3,3, 'rgba(0,0,0,0.5)', 2);
 	player = game.add.sprite(10, 300, 'dude');
 	enemy1 = game.add.sprite(Math.floor(Math.random()*800), 0, 'baddie')
 	//animate
